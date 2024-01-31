@@ -27,7 +27,17 @@ apk add --update --no-cache \
   libzip-dev \
   zip \
   sqlite-dev \
-  imap-dev
+  imap-dev \
+  autoconf \
+  dpkg-dev \
+  dpkg \
+  file \
+  g++ \
+  gcc \
+  libc-dev \
+  make \
+  pkgconf \
+  re2c
 
 # Installing PHP Security Checker
 PHP_SC_VERSION=$(curl -s "https://api.github.com/repos/fabpot/local-php-security-checker/releases/latest" |

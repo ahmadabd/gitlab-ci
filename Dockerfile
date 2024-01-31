@@ -1,5 +1,5 @@
 ARG NODE_VERSION=21-alpine
-ARG PHP_VERSION=8.2-fpm-alpine
+ARG PHP_VERSION=8.3-fpm-alpine
 FROM node:${NODE_VERSION} AS node
 FROM php:${PHP_VERSION}
 LABEL maintainer="Pezhvak <pezhvak@imvx.org>"
